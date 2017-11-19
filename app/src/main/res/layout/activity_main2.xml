@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.weekend2hw.Main2Activity">
+
+   <Button
+       android:id="@+id/btnGoToPdf"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="View Pdf File"
+       android:onClick="goToPdfActivity"/>
+
+   <Button
+       android:id="@+id/showDialog"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Dialog Image"
+       android:onClick="showDialogImage"/>
+    <Button
+        android:id="@+id/defaultAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Default Alert"
+        android:onClick="showDefaultAlert"/>
+    <Button
+        android:id="@+id/customAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Image Alert"
+        android:onClick="showCustomAlert"/>
+    <Button
+        android:id="@+id/customAlert2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Custom Alert"
+        android:onClick="showCustomAlert2"/>
+    <Button
+        android:id="@+id/customAlert3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Custom Options Alert"
+        android:onClick="showCustomAlert3"/>
+
+    <Button
+        android:id="@+id/sendNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Notification"
+        android:onClick="sendNotify"/>
+    <Button
+        android:id="@+id/btnSendSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:onClick="goToSmsActivity"/>
+    <Button
+        android:id="@+id/btnTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Timer"
+        android:onClick="goToTimerActivity"/>
+
+</LinearLayout>

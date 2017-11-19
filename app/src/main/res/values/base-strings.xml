@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates how to use PdfRenderer to display PDF documents on the screen.
+
+
+        ]]>
+    </string>
+    <string name="defaultAlertMessage">Greg Popovich is a great man.  He should be the president of the United States.  I think he also likes ham sandwhiches.</string>
+</resources>

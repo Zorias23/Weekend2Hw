@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="players">
+    <item name="players">Go Back</item>
+    <item name="players">View PDF</item>
+    <item name="players">View Timer</item>
+    </array>
+</resources>
